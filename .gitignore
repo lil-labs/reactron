@@ -1,0 +1,12 @@
+node_modules
+
+# examples
+examples/**/yarn.lock
+examples/**/package-lock.json
+examples/**/pnpm-lock.yaml
+examples/**/renderer/next-env.d.ts
+
+# misc
+.idea
+.vscode
+.DS_Store

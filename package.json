@@ -1,6 +1,6 @@
 {
   "name": "react-router-electron",
-  "version": "7.0.0",
+  "version": "1.0.0",
   "description": "⚡ React Router v7 + Electron ⚡",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",

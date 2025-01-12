@@ -1,5 +1,5 @@
 import { $ } from 'execa'
 
-const $$ = $({})
+const $$ = $({ stdio: 'inherit' })
 
 await $$`lerna publish`

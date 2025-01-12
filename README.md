@@ -9,8 +9,10 @@ React + Electron = ♥️
 pnpm install
 
 # publish as canary one
+pnpm release:canary
 
 # publish
+pnpm release:latest
 ```
 
 ## License

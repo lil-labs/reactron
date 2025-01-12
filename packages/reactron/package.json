@@ -23,8 +23,8 @@
     "dist",
     "types"
   ],
-  "main": "dist/index.js",
-  "types": "types",
+  "main": "dist/config.js",
+  "types": "types/config.d.ts",
   "bin": {
     "reactron": "bin/reactron.js"
   },

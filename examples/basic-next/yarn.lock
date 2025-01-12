@@ -85,10 +85,10 @@
     wrap-ansi "^8.1.0"
     wrap-ansi-cjs "npm:wrap-ansi@^7.0.0"
 
-"@lil-labs/reactron@^0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@lil-labs/reactron/-/reactron-0.0.18.tgz#8710250ab996aeaba38d9789f30232ab0edb5579"
-  integrity sha512-+oQq9TU86OyyjEFjUJ0lCKK2KxDtm+5RQUdc/v8JQft+ZkdHYrWdySM+OhU+QoN74SOqVTXYA3EhVjq1unmk2Q==
+"@lil-labs/reactron@canary":
+  version "0.0.19-alpha.0"
+  resolved "https://registry.yarnpkg.com/@lil-labs/reactron/-/reactron-0.0.19-alpha.0.tgz#5b87a50e54179fa1a851f1d89df45e8eabc71615"
+  integrity sha512-HDihYvHJtlYPtqAZItFesbP9P3Dn3PgCJwmXZYm8ytyWc0c4SvWbweHbHnXF3jJdF/mLT2RPEh7Qk51ccu4udA==
   dependencies:
     commander "13.0.0"
     execa "9.5.2"

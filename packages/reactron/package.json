@@ -21,7 +21,9 @@
   "files": [
     "index.js"
   ],
-  "scripts": {},
+  "scripts": {
+    "lint": "echo ok"
+  },
   "devDependencies": {
     "typescript": "^5.7.3"
   }

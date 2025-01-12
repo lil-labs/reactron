@@ -1,0 +1,6 @@
+post-merge:
+  files: "git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD"
+  commands:
+    dependencies:
+      glob: "pnpm-lock.yaml"
+      run: pnpm install

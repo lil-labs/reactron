@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@lil-labs/reactron",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "⚡ React + Electron ⚡",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
   "scripts": {
     "prebuild": "rimraf bin",
     "build": "rollup -c",
-    "prepublishOnly": "pnpm build"
+    "prepublishOnly": "NODE_ENV=production pnpm build"
   },
   "dependencies": {
     "commander": "13.0.0",

@@ -9,7 +9,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "release:canary": "tsx scripts/publish"
+    "release:canary": "tsx scripts/release-canary.ts",
+    "release:latest": "tsx scripts/release-latest.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

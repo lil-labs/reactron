@@ -6,6 +6,7 @@ program.name('reactron').description('⚡ React + Electron ⚡')
 
 program.command('dev', { isDefault: true }).action(() =>
   import('./reactron-dev').then(({ reactronDev }) => {
+    console.log('test')
     reactronDev()
   })
 )

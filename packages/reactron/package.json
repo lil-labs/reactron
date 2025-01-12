@@ -1,6 +1,6 @@
 {
   "name": "@lil-labs/reactron",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "⚡ React + Electron ⚡",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,6 @@
     "index.js"
   ],
   "scripts": {},
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^5.7.3"
   }

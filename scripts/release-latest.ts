@@ -5,4 +5,4 @@ const $$ = $({
   env: { NODE_ENV: 'production', LEFTHOOK: '0' },
 })
 
-await $$`lerna publish`
+await $$`LEFTHOOK=0 lerna publish`

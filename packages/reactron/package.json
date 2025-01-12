@@ -26,7 +26,8 @@
   },
   "scripts": {
     "prebuild": "rimraf bin",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "commander": "13.0.0",

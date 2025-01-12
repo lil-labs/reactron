@@ -9,8 +9,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "publish": "lerna publish",
-    "prepublishOnly": "echo ok"
+    "release:canary": "tsx scripts/publish"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

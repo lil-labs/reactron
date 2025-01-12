@@ -20,16 +20,17 @@
   ],
   "files": [
     "bin",
-    "dist"
+    "dist",
+    "types"
   ],
-  "main": "dist/config.js",
+  "main": "dist/index.js",
+  "types": "types",
   "bin": {
     "reactron": "bin/reactron.js"
   },
   "scripts": {
     "prebuild": "rimraf bin dist",
     "build": "rollup -c",
-    "postbuild": "tsc lib/config.ts --outFile dist/config.js --declaration --emitDeclarationOnly",
     "prepublishOnly": "NODE_ENV=production pnpm build"
   },
   "dependencies": {

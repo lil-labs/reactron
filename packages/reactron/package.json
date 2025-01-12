@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@lil-labs/reactron",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "⚡ React + Electron ⚡",
   "repository": {
     "type": "git",

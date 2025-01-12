@@ -10,15 +10,11 @@ const cli = (input, output, format, external = []) => ({
   output: {
     file: output,
     format,
-    banner: '#!/usr/bin/env node',
     inlineDynamicImports: true,
+    banner: '#!/usr/bin/env node',
   },
   external,
   ...baseOptions,
 })
 
-export default [
-  cli('lib/reactron.ts', 'bin/reactron.js', 'esm', ['commander']),
-  cli('lib/reactron-dev.ts', 'bin/reactron-dev.js', 'esm'),
-  cli('lib/reactron-build.ts', 'bin/reactron-build.js', 'esm'),
-]
+export default [cli('lib/reactron.ts', 'bin/reactron.js', 'esm', ['commander'])]

@@ -15,3 +15,5 @@ program.command('build').action(() =>
     reactronBuild()
   })
 )
+
+program.parse()

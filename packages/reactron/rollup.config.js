@@ -17,4 +17,4 @@ const cli = (input, output, format, external = []) => ({
   ...baseOptions,
 })
 
-export default [cli('lib/reactron.ts', 'bin/reactron.js', 'esm', ['commander'])]
+export default [cli('cli/reactron.ts', 'bin/reactron.js', 'esm', ['commander'])]
